@@ -5,11 +5,11 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class List_recipes_controller extends AbstractController
+class ListRecipes extends AbstractController
 {
 
-    #[Route('/list-recipes', name: "list-recipes")]
-    public function listRecipes()
+    #[Route('/list-articles', name: "list-articles")]
+    public function listArticles()
     {
 
         $recipes = [
