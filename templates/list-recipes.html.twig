@@ -1,0 +1,23 @@
+<html>
+
+	<body>
+
+		<main>
+            <h1> Le site de recette du Chef Twig et Symfony</h1>
+			<h2>Liste des articles disponibles !</h2>
+
+
+			{% for article in articles %}
+
+			<article>
+
+				<h2>{{ article.title }}</h2>
+				
+			</article>
+			{% endfor %}
+
+		</main>
+
+	</body>
+
+</html>
